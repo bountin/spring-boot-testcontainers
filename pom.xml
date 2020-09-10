@@ -13,6 +13,13 @@
         <module>spring-boot-testcontainers-postgresql</module>
     </modules>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/bountin/spring-boot-testcontainers</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
