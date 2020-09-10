@@ -16,7 +16,7 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <url>https://maven.pkg.github.com/bountin/spring-boot-testcontainers</url>
+            <url>https://maven.pkg.github.com/bountin</url>
         </repository>
     </distributionManagement>
 
