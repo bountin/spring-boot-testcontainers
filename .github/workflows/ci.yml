@@ -19,3 +19,6 @@ jobs:
 
       - name: Build & Test
         run: ./mvnw verify
+
+      - name: Publish artefacts
+        run: ./mvnw deploy -Dregistry=https://maven.pkg.github.com/bountin -Dtoken=${{ secrets.GITHUB_TOKEN }}
