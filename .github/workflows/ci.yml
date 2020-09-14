@@ -21,6 +21,6 @@ jobs:
         run: ./mvnw verify
 
       - name: Publish package
-        run: mvn -B deploy
+        run: ./mvnw deploy -
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
