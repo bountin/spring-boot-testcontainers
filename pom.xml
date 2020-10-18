@@ -7,7 +7,7 @@
     <groupId>org.example</groupId>
     <artifactId>spring-boot-testcontainers</artifactId>
     <packaging>pom</packaging>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <modules>
         <module>spring-boot-testcontainers-postgresql</module>
